@@ -1,0 +1,1 @@
+{"version":3,"sources":["main/main.less"],"names":[],"mappings":"AAEA;EACE,mBAAA","file":"main/main.css","sourcesContent":["@colorString: \"#aaa\";\n\nbody {\n  background: color(@colorString);\n}"],"sourceRoot":"/source/"}

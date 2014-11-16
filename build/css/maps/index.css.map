@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.less","main/main.less"],"names":[],"mappings":"AAEA;EACE,mBAAA;;ACDF;EACE,mBAAA","file":"index.css","sourcesContent":["@myColor: red;\n\nbody{\n  background: @myColor;\n}\n\n@import \"main/main.less\";","@colorString: \"#aaa\";\n\nbody {\n  background: color(@colorString);\n}"],"sourceRoot":"/source/"}

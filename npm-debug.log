@@ -1,0 +1,209 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i', '-D', 'gulp', 'sourcemaps' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 warn package.json application-name@0.0.1 No description
+6 warn package.json application-name@0.0.1 No repository field.
+7 warn package.json application-name@0.0.1 No README data
+8 warn package.json karma-coverage@0.2.6 No README data
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'gulp', null ]
+11 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'gulp',
+12 verbose parsed url   path: 'gulp',
+12 verbose parsed url   href: 'gulp' }
+13 verbose cache add [ 'sourcemaps', null ]
+14 verbose cache add name=undefined spec="sourcemaps" args=["sourcemaps",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'sourcemaps',
+15 verbose parsed url   path: 'sourcemaps',
+15 verbose parsed url   href: 'sourcemaps' }
+16 silly lockFile 9750c68d-gulp gulp
+17 verbose lock gulp /home/chris/.npm/9750c68d-gulp.lock
+18 silly lockFile 714bbb20-sourcemaps sourcemaps
+19 verbose lock sourcemaps /home/chris/.npm/714bbb20-sourcemaps.lock
+20 silly lockFile 9750c68d-gulp gulp
+21 silly lockFile 9750c68d-gulp gulp
+22 silly lockFile 714bbb20-sourcemaps sourcemaps
+23 silly lockFile 714bbb20-sourcemaps sourcemaps
+24 verbose addNamed [ 'gulp', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 72f4391e-gulp gulp@
+27 verbose lock gulp@ /home/chris/.npm/72f4391e-gulp.lock
+28 verbose addNamed [ 'sourcemaps', '' ]
+29 verbose addNamed [ null, '*' ]
+30 silly lockFile d29ce93b-sourcemaps sourcemaps@
+31 verbose lock sourcemaps@ /home/chris/.npm/d29ce93b-sourcemaps.lock
+32 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+33 silly addNameRange { name: 'sourcemaps', range: '*', hasData: false }
+34 verbose request where is /sourcemaps
+35 verbose request registry https://registry.npmjs.org/
+36 verbose request id 60b75ef77d822d0a
+37 verbose url raw /sourcemaps
+38 verbose url resolving [ 'https://registry.npmjs.org/', './sourcemaps' ]
+39 verbose url resolved https://registry.npmjs.org/sourcemaps
+40 verbose request where is https://registry.npmjs.org/sourcemaps
+41 info trying registry request attempt 1 at 18:45:58
+42 http GET https://registry.npmjs.org/sourcemaps
+43 verbose request where is /gulp
+44 verbose request registry https://registry.npmjs.org/
+45 verbose url raw /gulp
+46 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+47 verbose url resolved https://registry.npmjs.org/gulp
+48 verbose request where is https://registry.npmjs.org/gulp
+49 info trying registry request attempt 1 at 18:45:58
+50 verbose etag "ARFYLW5XZSZOITS9EION1FBNS"
+51 http GET https://registry.npmjs.org/gulp
+52 http 404 https://registry.npmjs.org/sourcemaps
+53 verbose headers { date: 'Sun, 16 Nov 2014 18:45:58 GMT',
+53 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+53 verbose headers   'content-type': 'application/json',
+53 verbose headers   'cache-control': 'max-age=0',
+53 verbose headers   'content-length': '52',
+53 verbose headers   'accept-ranges': 'bytes',
+53 verbose headers   via: '1.1 varnish',
+53 verbose headers   age: '0',
+53 verbose headers   'x-served-by': 'cache-lcy1132-LCY',
+53 verbose headers   'x-cache': 'MISS',
+53 verbose headers   'x-cache-hits': '0',
+53 verbose headers   'x-timer': 'S1416163558.255287,VS0,VE86',
+53 verbose headers   'keep-alive': 'timeout=10, max=50',
+53 verbose headers   connection: 'Keep-Alive' }
+54 silly registry.get cb [ 404,
+54 silly registry.get   { date: 'Sun, 16 Nov 2014 18:45:58 GMT',
+54 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+54 silly registry.get     'content-type': 'application/json',
+54 silly registry.get     'cache-control': 'max-age=0',
+54 silly registry.get     'content-length': '52',
+54 silly registry.get     'accept-ranges': 'bytes',
+54 silly registry.get     via: '1.1 varnish',
+54 silly registry.get     age: '0',
+54 silly registry.get     'x-served-by': 'cache-lcy1132-LCY',
+54 silly registry.get     'x-cache': 'MISS',
+54 silly registry.get     'x-cache-hits': '0',
+54 silly registry.get     'x-timer': 'S1416163558.255287,VS0,VE86',
+54 silly registry.get     'keep-alive': 'timeout=10, max=50',
+54 silly registry.get     connection: 'Keep-Alive' } ]
+55 silly lockFile d29ce93b-sourcemaps sourcemaps@
+56 silly lockFile d29ce93b-sourcemaps sourcemaps@
+57 http 304 https://registry.npmjs.org/gulp
+58 silly registry.get cb [ 304,
+58 silly registry.get   { date: 'Sun, 16 Nov 2014 18:45:58 GMT',
+58 silly registry.get     server: 'Apache',
+58 silly registry.get     via: '1.1 varnish',
+58 silly registry.get     'last-modified': 'Sun, 16 Nov 2014 18:45:59 GMT',
+58 silly registry.get     'cache-control': 'max-age=60',
+58 silly registry.get     etag: '"ARFYLW5XZSZOITS9EION1FBNS"',
+58 silly registry.get     age: '0',
+58 silly registry.get     'x-served-by': 'cache-lcy1132-LCY',
+58 silly registry.get     'x-cache': 'HIT',
+58 silly registry.get     'x-cache-hits': '1',
+58 silly registry.get     'x-timer': 'S1416163558.267313,VS0,VE776',
+58 silly registry.get     vary: 'Accept',
+58 silly registry.get     'content-length': '0',
+58 silly registry.get     'keep-alive': 'timeout=10, max=50',
+58 silly registry.get     connection: 'Keep-Alive' } ]
+59 verbose etag https://registry.npmjs.org/gulp from cache
+60 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+61 silly addNameRange versions [ 'gulp',
+61 silly addNameRange   [ '0.0.1',
+61 silly addNameRange     '0.0.2',
+61 silly addNameRange     '0.0.3',
+61 silly addNameRange     '0.0.4',
+61 silly addNameRange     '0.0.5',
+61 silly addNameRange     '0.0.7',
+61 silly addNameRange     '0.0.8',
+61 silly addNameRange     '0.0.9',
+61 silly addNameRange     '0.1.0',
+61 silly addNameRange     '0.2.0',
+61 silly addNameRange     '1.0.0',
+61 silly addNameRange     '1.1.0',
+61 silly addNameRange     '1.2.0',
+61 silly addNameRange     '1.2.1',
+61 silly addNameRange     '2.0.0',
+61 silly addNameRange     '2.0.1',
+61 silly addNameRange     '2.1.0',
+61 silly addNameRange     '2.2.0',
+61 silly addNameRange     '2.3.0',
+61 silly addNameRange     '2.4.0',
+61 silly addNameRange     '2.4.1',
+61 silly addNameRange     '2.6.0',
+61 silly addNameRange     '2.6.1',
+61 silly addNameRange     '2.7.0',
+61 silly addNameRange     '3.0.0',
+61 silly addNameRange     '3.1.1',
+61 silly addNameRange     '3.1.2',
+61 silly addNameRange     '3.1.3',
+61 silly addNameRange     '3.1.4',
+61 silly addNameRange     '3.2.0',
+61 silly addNameRange     '3.2.1',
+61 silly addNameRange     '3.2.2',
+61 silly addNameRange     '3.2.3',
+61 silly addNameRange     '3.2.4',
+61 silly addNameRange     '3.2.5',
+61 silly addNameRange     '3.3.0',
+61 silly addNameRange     '3.3.1',
+61 silly addNameRange     '3.3.2',
+61 silly addNameRange     '3.3.4',
+61 silly addNameRange     '3.4.0',
+61 silly addNameRange     '3.5.0',
+61 silly addNameRange     '3.5.1',
+61 silly addNameRange     '3.5.2',
+61 silly addNameRange     '3.5.5',
+61 silly addNameRange     '3.5.6',
+61 silly addNameRange     '3.6.0',
+61 silly addNameRange     '3.6.1',
+61 silly addNameRange     '3.6.2',
+61 silly addNameRange     '3.7.0',
+61 silly addNameRange     '3.8.0',
+61 silly addNameRange     '3.8.1',
+61 silly addNameRange     '3.8.2',
+61 silly addNameRange     '3.8.3',
+61 silly addNameRange     '3.8.4',
+61 silly addNameRange     '3.8.5',
+61 silly addNameRange     '3.8.6',
+61 silly addNameRange     '3.8.7',
+61 silly addNameRange     '3.8.8',
+61 silly addNameRange     '3.8.9',
+61 silly addNameRange     '3.8.10' ] ]
+62 verbose addNamed [ 'gulp', '3.8.10' ]
+63 verbose addNamed [ '3.8.10', '3.8.10' ]
+64 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+65 verbose lock gulp@3.8.10 /home/chris/.npm/f843d0d7-gulp-3-8-10.lock
+66 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+67 silly lockFile f843d0d7-gulp-3-8-10 gulp@3.8.10
+68 silly lockFile 72f4391e-gulp gulp@
+69 silly lockFile 72f4391e-gulp gulp@
+70 error 404 404 Not Found: sourcemaps
+70 error 404
+70 error 404 'sourcemaps' is not in the npm registry.
+70 error 404 You should bug the author to publish it
+70 error 404 It was specified as a dependency of 'application-name'
+70 error 404
+70 error 404 Note that you can also install from a
+70 error 404 tarball, folder, or http url, or git url.
+71 error System Linux 3.13.0-39-generic
+72 error command "/usr/bin/node" "/usr/bin/npm" "i" "-D" "gulp" "sourcemaps"
+73 error cwd /home/chris/Downloads/untitled1
+74 error node -v v0.10.33
+75 error npm -v 1.4.28
+76 error code E404
+77 verbose exit [ 1, true ]
